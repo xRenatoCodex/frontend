@@ -1,16 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{js,ts,jsx,tsx}"],
-    theme: {
-      extend: {
-        colors: {
-          primary: "#1E40AF", // Azul fuerte
-          secondary: "#9333EA", // Morado intenso
-          accent: "#FACC15", // Amarillo vibrante
-          muted: "#6B7280", // Gris medio
-        },
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#1E40AF",
+        secondary: "#9333EA",
+        accent: "#FACC15",
+        muted: "#6B7280",
       },
     },
-    plugins: [],
-  };
-  
+  },
+  plugins: [],
+};
