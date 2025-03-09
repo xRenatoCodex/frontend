@@ -16,8 +16,8 @@ export default function Home() {
   const [view_password, setViewPassword] = useState(false);
 
   return (
-    <div className="bg-[#21272f] h-full w-full flex flex-row justify-start items-center p-4">
-      <div className="flex flex-col justify-start items-center flex-1/3 h-full gap-8">
+    <div className="h-full w-full flex flex-row justify-start items-center">
+      <div className="flex flex-col justify-start items-center flex-1/3 h-full gap-8 bg-[#21272f] p-4">
         <div className="flex flex-row justify-start items-center h-12 w-full">
           <Logo height={40} width={40} />
         </div>
@@ -33,7 +33,7 @@ export default function Home() {
           <ChatGpt height={40} width={40} />
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center flex-2/3 h-full bg-[#141a21]">
+      <div className="flex flex-col justify-center items-center flex-2/3 h-full bg-[#141a21] p-4">
         <div className="flex flex-col justify-center items-start h-3/4 w-1/2 gap-8">
           <div className="flex flex-col justify-start items-start h-auto w-full gap-2">
             <h2 className="font-bold text-2xl text-white">Iniciar Sesión</h2>
