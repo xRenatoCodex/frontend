@@ -2,7 +2,6 @@
 
 
 import { SelectFolder } from "@/components/app";
-import { useState } from "react";
 
 export default function Page() {
 
