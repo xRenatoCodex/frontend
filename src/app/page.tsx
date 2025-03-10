@@ -53,7 +53,7 @@ export default function Home() {
               </div>
             </div>
 
-            <Link href={'/home'} className="w-full" >
+            <Link href={'/app'} className="w-full" >
               <Button variant="contained" fullWidth sx={{ borderRadius: '12px', height: '48px', backgroundColor: '#00A76F' }}>
                 Iniciar Sesión
               </Button>
